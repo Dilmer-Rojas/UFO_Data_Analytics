@@ -4,3 +4,4 @@ matplotlib
 seaborn
 sqlite3
 openpyxl
+ipython-sql
