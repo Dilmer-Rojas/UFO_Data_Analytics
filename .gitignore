@@ -1,0 +1,19 @@
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos grandes y archivos temporales
+data/raw/*
+data/processed/*
+outputs/*
+*.log
+*.sqlite
+*.db-journal
+
+# Archivos de Jupyter y caché de Python
+__pycache__/
+*.ipynb_checkpoints
+
+# Configuración local
+config.yaml
+.env
