@@ -15,5 +15,5 @@ __pycache__/
 *.ipynb_checkpoints
 
 # Configuración local
-config.yaml
+# config.yaml
 .env

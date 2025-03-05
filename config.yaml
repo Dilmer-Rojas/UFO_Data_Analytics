@@ -1,0 +1,16 @@
+data_paths:
+  raw: "data/raw/"
+  processed: "data/processed/"
+  outputs: "outputs/"
+
+database:
+  type: "sqlite"
+  path: "data/processed/copia.db"
+
+analysis:
+  top_n_countries: 10
+  min_ratings: 5
+
+visualization:
+  color_palette: "viridis"
+  dpi: 300

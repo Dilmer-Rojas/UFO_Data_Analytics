@@ -6,7 +6,7 @@ with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
 
 # Cargar datos
-df = pd.read_csv(config["data_paths"]["raw"] + "dataset1.csv")
+df = pd.read_csv(config["data_paths"]["raw"] + "ufo_data.csv")
 
 # Análisis rápido
 print(df.info())
